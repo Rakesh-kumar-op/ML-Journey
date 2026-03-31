@@ -2,10 +2,10 @@
 
 This repository is a comprehensive record of my "Learning in Public" journey through the **Machine Learning Specialization** by Andrew Ng. It contains my technical notes, mathematical derivations, and Python implementations.
 
-## 🎯 Current Focus
+##  Current Focus
 Mastering **Optimization Algorithms** and moving toward Multiple Linear Regression.
 
-## 📅 Roadmap & Progress
+##  Roadmap & Progress
 - [x] **Module 1: Introduction to Machine Learning**
     - [x] Supervised vs. Unsupervised Learning
     - [x] Defining the Learning Problem (Arthur Samuel's definition)
@@ -26,4 +26,3 @@ Mastering **Optimization Algorithms** and moving toward Multiple Linear Regressi
 * **Concepts:** Calculus-based Optimization, Statistical Modeling
 
 ---
-*“Field of study that gives computers the ability to learn without being explicitly programmed.” — Arthur Samuel*
