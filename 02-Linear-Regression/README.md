@@ -1,6 +1,6 @@
 # 📈 Linear Regression & The Cost Function
 
-Today I moved from the "Overview" of Machine Learning into the actual mathematics that powers prediction.
+Today, I moved from the "Overview" of Machine Learning into the actual mathematics that powers prediction.
 
 ## 1. The Linear Regression Model
 Linear Regression is a supervised learning algorithm used for predicting a continuous numerical output. The model is represented by the formula:
@@ -24,7 +24,7 @@ $$J(w,b) = \frac{1}{2m} \sum_{i=1}^{m} (f_{w,b}(x^{(i)}) - y^{(i)})^2$$
 ### Key Takeaways:
 1. **The Goal:** We want to find $w$ and $b$ such that $J(w,b)$ is as small as possible.
 2. **The "Bowl" Analogy:** If you visualize $J(w,b)$ as a 3D surface, it looks like a bowl. The very bottom of that bowl represents the point of minimum error.
-3. **Squaring:** We square the error $(f(x) - y)^2$ so that all errors are positive and larger mistakes are penalized more than smaller ones.
+3. **Squaring:** We square the error $(f(x) - y)^2$ so that all errors are positive and bigger mistakes are penalized more than smaller ones.
 
 ---
 
@@ -41,7 +41,7 @@ Now that I can calculate the **Cost**, I need an algorithm to minimize it. **Gra
 Imagine standing on a hill (high cost) and wanting to get to the bottom of the valley (minimum cost). [cite_start]You look at the slope under your feet and take a step in the steepest downward direction.
 
 
-### [cite_start]The Procedure[cite: 12]:
+### The Procedure:
 1. [cite_start]**Initialize:** Start with initial weights (usually set to $0.0$ or a small random value).
 2. [cite_start]**Evaluate:** Calculate the current cost $J(w,b)$.
 3. [cite_start]**Calculate Gradient:** Find the derivative (slope) of the cost function to determine which direction to move.
