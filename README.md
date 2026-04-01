@@ -5,6 +5,12 @@ This repository is a comprehensive record of my "Learning in Public" journey thr
 ##  Current Focus
 Mastering **Optimization Algorithms** and moving toward Multiple Linear Regression.
 
+## 🏆 Featured Project: Chess Personality Analyzer
+I applied the foundations of Linear Regression and Gradient Descent to build a custom engine that reverse-engineers human chess behavior.
+
+* **Repository:** (https://github.com/Rakesh-kumar-op/chess_ml_evaluator.git)
+* **Key Achievement:** Built the mathematical engine from scratch in Python (no scikit-learn) to evaluate board positions based on player-specific history.
+
 ##  Roadmap & Progress
 - [x] **Module 1: Introduction to Machine Learning**
     - [x] Supervised vs. Unsupervised Learning
